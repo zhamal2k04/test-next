@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-container {
+    max-width: 1920px;
+    width: 100%;
+    height: 4300px;
+    background-color: #141414;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ----dostojeniya---- */
+.dostojeniya {
+    width: 1400px;
+    height: 750px;
+    /* border: 3px solid white; */
+    margin: 180px 0px;
+    display: flex;
+}
+
+.dostojeniya-text {
+    height: 100%;
+    width: 760px;
+    /* border: 3px solid red; */
+}
+
+/* --------table-one------- */
+
+.table-one {
+    width: 320px;
+    height: 708px;
+
+}
+
+.table-inner {
+    width: 320px;
+    height: 177px;
+    border: 2px solid #898989;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 25px;
+    gap: 10px;
+}
+
+.table-inner:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.636);
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+/* ----car-gallery----- */
+
+.car-gallery {
+    width: 1550px;
+    height: 420px;
+    /* border: 3px solid white; */
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.car-inner {
+    width: 416px;
+    height: 420px;
+    /* border: 3px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 10px;
+    /* Kartalar orasiga bo'shliq qo'shish uchun */
+}
+
+
+.car-btn {
+    width: 366px;
+    height: 70px;
+    background-color: #DB3138;
+    border: none;
+    position: relative;
+    top: -35px;
+    left: 25px;
+
+}
+
+.cars-info {
+    position: relative;
+    top: 25px;
+}
+
+
+/* -----material----- */
+
+.material {
+    width: 1296px;
+    height: 665px;
+    /* border: 3px solid white; */
+    margin: 180px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-material {
+    width: 526px;
+    height: 100%;
+    /* border: 3px solid rgb(238, 13, 13); */
+}
+
+.right-material {
+    width: 636px;
+    height: 100%;
+    /* border: 3px solid rgb(238, 13, 13); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.material-text-h1 {
+    font-size: 32px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: monospace;
+
+}
+
+.material-text-p1 {
+    font-size: 18px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 45px;
+}
+
+.material-text-h2 {
+    font-size: 32px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: monospace;
+    margin-top: 40px;
+}
+
+.material-text-p2 {
+    font-size: 18px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 45px;
+}
+
+.material-text-h3 {
+    font-size: 32px;
+    margin-top: 55px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+.material-text-p3 {
+    font-size: 18px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 45px;
+}
+
+/* ----nash uslugi----- */
+
+.nash-uslugi {
+    width: 1296px;
+    height: 771px;
+    /* border: 3px solid white; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.uslugi-btn {
+    width: 450px;
+    height: 75px;
+    /* border: 3px solid white; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.uslugi-btn1 {
+    width: 180px;
+    height: 75px;
+    border: none;
+    background-color: #DB3138;
+
+}
+
+.uslugi-btn2 {
+    width: 180px;
+    height: 75px;
+    border: none;
+    background-color: transparent;
+}
+
+.uslugi-h {
+    font-size: 32px;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.uslugi-cards {
+    width: 1296px;
+    height: 430px;
+    /* border: 3px solid white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 24px;
+
+}
+
+.uslugi-card1 {
+    width: 310px;
+    height: 430px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.uslugi-card1:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.uslugi-card-h {
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 28px;
+}
+
+.uslugi-card-p {
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 40px;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.uslugi-card-btn {
+    width: 58px;
+    height: 40px;
+    background-color: #DB3138;
+    border: none;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+/* ---syron---- */
+
+
+.syron {
+    width: 1296px;
+    height: 665px;
+    /* border: 3px solid white; */
+    margin: 180px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.syron-left {
+    width: 636px;
+    height: 100%;
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.syron-right {
+    width: 526px;
+    height: 100%;
+    /* border: 3px solid red; */
+}
+

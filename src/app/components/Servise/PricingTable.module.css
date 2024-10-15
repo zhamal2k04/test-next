@@ -1,0 +1,46 @@
+
+
+/* PricingTable.module.css */
+.tableContainer {
+  width: 1296px;
+  height: 566px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px auto;
+   overflow: hidden;
+   
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+  
+  .tableHeader, .tableData {
+    border: 1px solid #444;
+    padding: 10px 20px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .tableHeader {
+    background-color: #222;
+  }
+  
+  .tableData {
+    background-color: #111;
+  }
+  
+  .carClass {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .sizeInfo {
+    color: white;
+    margin-top: 10px;
+  }
+  
